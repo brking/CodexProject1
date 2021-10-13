@@ -1,0 +1,111 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  /* Login and registration windows */
+  .inputform {
+    margin: auto;
+    width: 500px;
+    padding: 22px 22px 22px 22px;
+    border-radius: 0px;
+    background: #f5f5f5;
+  }
+  .large-inputform {
+    margin: auto;
+    width: 900px;
+    padding: 22px 22px 22px 22px;
+    border-radius: 0px;
+    background: #f5f5f5; 
+  }
+  .inputform .form-heading {
+    font-size: 100px;
+    color: rgba(175, 47, 47, 0.15);
+    margin-bottom: 10px;
+  }
+  .large-inputform .form-heading {
+    font-size: 80px;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+    margin-bottom: 10px;
+  }
+  .inputform .small-form-heading {
+    margin-bottom: 20px;
+    font-size: smaller;
+    text-align: right;
+  }
+  .inputform input {
+    font-size: large;
+  }
+  .inputform .textbox {
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(219, 219, 219);
+    color: rgb(125, 125, 125);
+    font-size: 24px;
+    border-radius: 0px;
+    box-shadow: 10px 10px 8px rgb(219, 219, 219);
+    margin-bottom: 10px;
+  }
+  .large-inputform .textbox {
+    width: 745px;
+    height: 50px;
+    border: 1px solid rgb(219, 219, 219);
+    color: rgb(125, 125, 125);
+    font-size: 24px;
+    box-shadow: 10px 10px 8px rgb(219, 219, 219);
+    margin-bottom: 10px;
+    padding: 10px 10px;
+  }
+  .inputform .button {
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;;
+  }
+  .large-inputform .button {
+    height: 50px;
+    width: 60px;
+    border: 1px solid rgb(219, 219, 219);
+    color: white;
+    font-size: 24px;
+    box-shadow: 10px 10px 8px rgb(219, 219, 219);
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  .inputform .label {
+    font-size: 24px;
+  }
+  .large-inputform .label {
+    font-size: 24px;
+  }
+  .inputform .footnote {
+    font-size: smaller;
+    margin-top: 24px;
+    text-align: right;
+  }
+  .large-inputform .instruction {
+    margin: auto;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    height: 50px;
+    width: 750px;
+    border: 2px solid rgb(80, 80, 80);
+    color: white;
+    background-color:rgb(80, 80, 80);
+    font-size: 24px;
+    box-shadow: 10px 10px 8px rgb(219, 219, 219);
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    text-transform: lowercase;
+  }
+  li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #dddddd;
+    font-weight: 800;
+  }

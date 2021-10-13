@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bullet Journal Login Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<link rel="shortcut icon" href="#">
+</head>
+
+<body>
+	<div class="inputform">
+		<form onkeypress="return event.keyCode != 13">
+			<div class="form-heading">login</div>
+			<div class="small-form-heading">Don't have an account yet? <a href="register.html">Sign up</a></div>
+			<label class="label" for="email">email</label>
+			<input class="textbox" id="email" type="email" placeholder="enter email here ..." required />
+			<label class="label" for="password">password</label>
+			<input class="textbox" id="password" type="password" placeholder="enter password here ..." required />
+			<input class="button" id="login-button" type="button" value="login" onclick="fnc_login()" />
+		</form>
+		<div class="footnote">Reference made to the site <a href="https://todomvc.com/examples/vanillajs/#/completed">VanillaJS • TodoMVCPage</a></div>
+	</div>
+</body>
+
+</html>
